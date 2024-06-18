@@ -14,7 +14,15 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Setup Env Local
+
+NEXTAUTH_URL="http://localhost:3001"
+NEXTAUTH_SECRET="this is secret"
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+DATABASE_URL="postgresql://postgres:@Rdd01@localhost:5432/restapi?schema=public"
+
+Open [http://localhost:3001](http://localhost:3001) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
