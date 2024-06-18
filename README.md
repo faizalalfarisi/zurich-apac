@@ -6,7 +6,7 @@ npm install
 
 npm run dev
 
-## Setup Env Local
+## Setup File .env
 
 NEXTAUTH_URL="http://localhost:3001"
 NEXTAUTH_SECRET="this is secret"
